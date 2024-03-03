@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spotify Webapp</title>
+</head>
+<body>
+    <div id="login-container">
+        <button id="login-btn">Log in met Spotify</button>
+    </div>
+    <div id="spotify-info" style="display: none;">
+        <div style="display: flex;">
+            <div id="album-section">
+                <img id="album-cover" src="" alt="Album Cover">
+            </div>
+            <div id="details-section">
+                <h2 id="track-name"></h2>
+                <p id="artist-name"></p>
+                <p id="timeline"></p>
+                <div class="progress-container">
+                    <div id="progress-bar"></div>
+                </div> 
+            </div>
+        </div>
+    </div>   
+    <script src="app.js"></script>
+</body>
+</html>

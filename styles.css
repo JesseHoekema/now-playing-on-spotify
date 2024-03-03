@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    position: relative;
+}
+
+#login-container {
+    text-align: center;
+}
+
+#login-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#spotify-info {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line on small screens */
+    padding: 10px;
+    margin-bottom: 5%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+#album-section {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+#album-cover {
+    width: 50%; /* Set album cover width to 100% for responsiveness */
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+#details-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+#details-section.has-background {
+    background-image: none; /* reset background image */
+}
+
+#track-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#artist-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#timeline {
+    font-size: 14px;
+    font-style: italic;
+    width: 100%; /* Set the timeline width to 100% */
+    box-sizing: border-box; 
+    color: black;
+}
+
+.progress-container {
+    width: 97%;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-top: auto; /* Push the progress bar to the bottom */
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#progress-bar {
+    height: 100%;
+    background-color: #1db954;
+    transition: width 0.2s ease-in-out;
+    margin: 0;
+    padding: 0;
+}

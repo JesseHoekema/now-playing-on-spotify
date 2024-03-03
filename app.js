@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const clientID = 'b794b40a28e240649301391e7638d847';
-    const redirectURI = 'http://127.0.0.1:5500/index.html';
+    const redirectURI = 'https://projects.jessehoekema.com/now-playing-on-spotify/';
     const authorizeEndpoint = 'https://accounts.spotify.com/authorize';
     const nowPlayingEndpoint = 'https://api.spotify.com/v1/me/player/currently-playing';
     const scopes = 'user-read-currently-playing';
